@@ -1,0 +1,17 @@
+{
+    "name": "my-example-app",
+    "type": "static",
+    "static": {
+      "public": "dist",
+      "rewrites": [
+        {
+          "source": "**",
+          "destination": "/index.html"
+        }
+      ]
+    },
+    "alias": "vue-cli-demo-test-01",
+    "files": [
+      "dist"
+    ]
+  }
